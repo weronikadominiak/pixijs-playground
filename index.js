@@ -26,7 +26,6 @@ app.stage.addChild(ship);
 window.addEventListener("keydown", handleKeyDown);
 
 function handleKeyDown(e) {
-  w;
   console.log(getScreenSize());
   currentPositionX = ship.position._x;
   currentPositionY = ship.position._y;
